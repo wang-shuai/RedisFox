@@ -6,11 +6,11 @@
 #redis服务器
 servers:
  - server: 127.0.0.1
-   port: 6379
+   port: 10001
    conntype: tcp
-# - server: 127.0.0.1
-#   port: 6479
-#   conntype: tcp
+ - server: 127.0.0.1
+   port: 10002
+   conntype: tcp
 
 #获取redis信息间隔时间(秒)
 sleeptime: 30
